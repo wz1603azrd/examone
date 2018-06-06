@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E9E9E9;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    font-size: 18px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+main h2 {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+main h2 span {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: #E9E9E9;
+    text-align: center;
+    line-height: 80px;
+    margin: 0 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+main h2 span i.iconfont {
+    font-size: 55px;
+    color: #D1D1D1;
+}
+
+main p {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 10px;
+    font-size: 17px;
+    color: #737373;
+}
+
+main p i.iconfont {
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+main p b {
+    float: right;
+    color: #737373;
+    font-size: 18px;
+}
+
+.one {
+    color: #EFBD61;
+}
+
+.two {
+    color: #E56F56;
+}
+
+.three {
+    color: #9DD053;
+}
+
+.four {
+    color: #79B8F1;
+}
